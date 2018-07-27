@@ -1,0 +1,3 @@
+This is a basic CRUD application that can be used to add NFL teams and Players.
+
+The seed data is located in SeedData.cs under the DATA folder, from here you can add all of the team or a few more.
