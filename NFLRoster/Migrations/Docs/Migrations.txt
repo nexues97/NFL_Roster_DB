@@ -1,0 +1,5 @@
+﻿Enable-Migrations -ContextTypeName NFLContext -MigrationsDirectory Migrations\NFL
+
+add-migration -ConfigurationTypeName NFLRoster.Migrations.NFL.Configuration "InitialCreate"
+
+Update-Database -ConfigurationTypeName NFLRoster.Migrations.NFL.Configuration
